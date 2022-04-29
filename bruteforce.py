@@ -7,7 +7,7 @@ By Rodrigo Galhardo | CISO, Ethical Hacking, Offensive Sec
 import requests
 arq = open('directory.2.0.txt')
 linhas = arq.readlines()
-url = 'https://www.globo.com/'
+url = 'https://www.nome-do-dominio.com/'
 try:
     for linha in linhas:
         res = requests.get(url + linha)
